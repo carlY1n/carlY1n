@@ -55,30 +55,34 @@
 
 <h3> 🚀 &nbsp;Featured Projects</h3>
 
-- **AI-Driven Intelligent Diagnosis for Motor Health (Shanghai Municipal Innovation Training Program — Outstanding)**
-  *Technologies: Python, Django, MySQL, Vue.js, CAE, DRSN, 1D-CNN*
-  - Addressed small-sample, high-noise challenges in industrial motor fault detection; improved recognition accuracy by 15–20% over baseline 1D-CNN on the CWRU dataset.
-  - Built an end-to-end full-stack platform covering sensor data ingestion, real-time model inference, and structured diagnostic reporting.
-
 - **Marine Fishery Resource Management Platform (B-side)**
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/carlY1n/Marine-Fishery-Resource-Management-Sustainable-Utilization-Platform)
   *Technologies: Spring Boot, MySQL, Vue.js, JWT*
   - Independently developed a government digital platform covering environmental monitoring, fishery resource management, policy publication, and administrative approval workflows.
   - Designed core business tables with composite indexes and foreign key constraints to ensure data consistency and query performance.
 
 - **Community Carpool Platform (C-side, Real-time)**
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/carlY1n/Community-Carpool-Platform)
   *Technologies: Spring Boot, MySQL, WebSocket, Vue.js, UniApp, JWT*
   - Independently built a cross-platform (iOS/Android) carpooling app with trip publishing, driver-passenger matching, and real-time chat (WebSocket, latency <100ms).
   - Secured sensitive data with JWT authentication and salted hashing; implemented API rate limiting to prevent abuse.
 
 - **Rust-like Compiler (Python/Flask)**
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/carlY1n/Rust-like-Compiler)
   *Technologies: Python, Flask, D3.js, x86\_64 Assembly*
   - Implemented a complete compiler pipeline from scratch: recursive-descent lexer/parser → AST (JSON export + D3.js visualization) → 11-category static semantic checks → quadruple intermediate code generation.
   - Built an LRU-based register allocator and stack frame manager supporting x86_64 target code generation with full function call conventions.
 
 - **Shanghai Metro Transfer Guide System**
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/carlY1n/Shanghai-Metro-Transfer-Guide-System)
   *Technologies: C++, Qt, Dijkstra Algorithm, Graph Theory*
   - Developed a GUI-based metro route planner supporting shortest-path and minimum-transfer dual-mode search over an adjacency-list topology graph of 100+ stations across 20 lines.
   - Decoupled algorithm logic from UI rendering via Qt signal-slot mechanism; RAII ensures zero memory leaks.
+ 
+- **AI-Driven Intelligent Diagnosis for Motor Health (Shanghai Municipal Innovation Training Program — Outstanding)**
+  *Technologies: Python, Django, MySQL, Vue.js, CAE, DRSN, 1D-CNN*
+  - Addressed small-sample, high-noise challenges in industrial motor fault detection; improved recognition accuracy by 15–20% over baseline 1D-CNN on the CWRU dataset.
+  - Built an end-to-end full-stack platform covering sensor data ingestion, real-time model inference, and structured diagnostic reporting.
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
